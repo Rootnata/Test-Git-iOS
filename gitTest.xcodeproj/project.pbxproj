@@ -21,6 +21,7 @@
 		5E1675EA18DA10440051308E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1675CC18DA10440051308E /* UIKit.framework */; };
 		5E1675F218DA10440051308E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E1675F018DA10440051308E /* InfoPlist.strings */; };
 		5E1675F418DA10440051308E /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1675F318DA10440051308E /* gitTestTests.m */; };
+		5E1675FF18DA17340051308E /* ANAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1675FE18DA17340051308E /* ANAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5E1675EF18DA10440051308E /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		5E1675F118DA10440051308E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E1675F318DA10440051308E /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		5E1675FD18DA17340051308E /* ANAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAddition.h; sourceTree = "<group>"; };
+		5E1675FE18DA17340051308E /* ANAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAddition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		5E1675BC18DA10440051308E = {
 			isa = PBXGroup;
 			children = (
+				5E1675FD18DA17340051308E /* ANAddition.h */,
+				5E1675FE18DA17340051308E /* ANAddition.m */,
 				5E1675CE18DA10440051308E /* gitTest */,
 				5E1675ED18DA10440051308E /* gitTestTests */,
 				5E1675C718DA10440051308E /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				5E1675D518DA10440051308E /* main.m in Sources */,
 				5E1675DF18DA10440051308E /* ANViewController.m in Sources */,
+				5E1675FF18DA17340051308E /* ANAddition.m in Sources */,
 				5E1675D918DA10440051308E /* ANAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
